@@ -1,4 +1,6 @@
 package main;
+import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,12 +10,20 @@ public class Main {
         for (int i = 1; i <= 5; i++) {
 
             System.out.println("i = " + i);
+
         }
     }
 
     public int add(int a, int b) {
         return a + b;
     }
+
+    public int add2(int a, int b, int c) {
+        return a + b + c;
+    }
+
+
+
 
 
 }
