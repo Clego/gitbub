@@ -22,6 +22,10 @@ public class Main {
         return a + b + c;
     }
 
+    public int sub(int a, int b) {
+        return a - b;
+    }
+
 
 
 
